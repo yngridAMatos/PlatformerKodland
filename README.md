@@ -16,7 +16,7 @@ Controle o herói, pule nas plataformas, derrote inimigos e colete moedas para v
    ```bash
    pgzrun intro.py
 
-# 🎮 Controles
+## 🎮 Controles
 
 - **Setas ← →** → para mover personagem 
 
@@ -26,7 +26,7 @@ Controle o herói, pule nas plataformas, derrote inimigos e colete moedas para v
 
 - **Enter** → voltar ao menu quando perde ou vence
 
-# ⚙️ Dificuldades
+## ⚙️ Dificuldades
 
 - **Easy** → 4 vidas, inimigos lentos, menos inimigos.
 
@@ -34,7 +34,7 @@ Controle o herói, pule nas plataformas, derrote inimigos e colete moedas para v
 
 - **Hard** → 2 vidas, inimigos rápidos e inimigo extra.
 
-# 🔊 Sons
+## 🔊 Sons
 
 - Pulo (jump)
 
@@ -46,7 +46,7 @@ Controle o herói, pule nas plataformas, derrote inimigos e colete moedas para v
 
 - Clique no menu (click)
 
-# 🖼️ Telas
+## 🖼️ Telas
 
 - Menu inicial com Start, Sound, Difficulty e Exit
 
