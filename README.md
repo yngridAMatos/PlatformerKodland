@@ -1,59 +1,57 @@
-🎮 Platformer Kodland
+# 🎮 Platformer Kodland
 
-Um jogo de plataforma simples feito com a biblioteca PGZero do Python.
-Controle o herói, pule nas plataformas, derrote inimigos e colete moedas para vencer!
+Um jogo de plataforma simples feito em **Python + PGZero**.  
+Controle o herói, pule nas plataformas, derrote inimigos e colete moedas para vencer!  
 
-🚀 Como rodar
+---
 
-Instale o Python (versão 3.8+).
+## 🚀 Como rodar
 
-Instale o pgzero:
+1. Instale o Python (versão 3.8+).  
+2. Instale o **pgzero**:  
+   ```bash
+   pip install pgzero
+3. Baixe e clone este repositório
+4. Execute o jogo
+   ```bash
+   pgzrun intro.py
 
-pip install pgzero
+# 🎮 Controles
 
+- **Setas ← →** → para mover personagem 
 
-Baixe/clonar este repositório.
+- **Espaço** → pular
 
-Execute o jogo:
+- **Clique com mouse** → interagir com o menu
 
-pgzrun nome_do_arquivo.py
+- **Enter** → voltar ao menu quando perde ou vence
 
-🎮 Controles
+# ⚙️ Dificuldades
 
-Setas ← → → para mover personagem
+- **Easy** → 4 vidas, inimigos lentos, menos inimigos.
 
-Espaço → pular
+- **Normal** → 3 vidas, inimigos médios.
 
-Clique com mouse → interagir com o menu
+- **Hard** → 2 vidas, inimigos rápidos e inimigo extra.
 
-Enter → voltar ao menu quando perde ou vence
+# 🔊 Sons
 
-⚙️ Dificuldades
+- Pulo (jump)
 
-Easy → 4 vidas, inimigos lentos, menos inimigos.
+- Dano (hit)
 
-Normal → 3 vidas, inimigos médios.
+- Recuperação (resurge)
 
-Hard → 2 vidas, inimigos rápidos e inimigo extra.
+- Moeda (coin)
 
-🔊 Sons
+- Clique no menu (click)
 
-Pulo (jump)
+# 🖼️ Telas
 
-Dano (hit)
+- Menu inicial com Start, Sound, Difficulty e Exit
 
-Recuperação (resurge)
+- Tela de jogo com score e vidas
 
-Moeda (coin)
+- Tela de vitória ao derrotar todos inimigos
 
-Clique no menu (click)
-
-🖼️ Telas
-
-Menu inicial com Start, Sound, Difficulty e Exit
-
-Tela de jogo com score e vidas
-
-Tela de vitória ao derrotar todos inimigos
-
-Tela de derrota quando vidas chegam a 0
+- Tela de derrota quando vidas chegam a 0
